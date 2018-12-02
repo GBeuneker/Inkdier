@@ -1,0 +1,17 @@
+---
+layout: default
+---
+
+<div class="text-center container box">
+{% for post in site.posts %}
+    <a href= "{{post.url}}" class="comic-preview col-md-3">
+        <div class="comic-title">
+            <p>{{post.title}}</p>
+        </div>
+        <div class="comic">
+            <img src="{{site.baseurl}}/assets/images/{{post.images[0].url}}">
+        </div>
+    </a>
+
+{% endfor %}
+</div>

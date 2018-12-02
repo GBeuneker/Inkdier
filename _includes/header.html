@@ -7,7 +7,7 @@
 
     {% assign random = site.time | date: "%s%N" | modulo: site.posts.size %}
     <ul class="navbar">
-      <li><a href="#">Archive</a></li>
+      <li><a href="{{site.baseurl}}/archive.html">Archive</a></li>
       <li><a href="{{site.posts[random].url}}">Random</a></li>
       <li><a href="https://www.etsy.com/shop/FunnyInk">Shop</a></li>
     </ul>

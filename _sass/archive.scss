@@ -1,0 +1,22 @@
+.comic-preview {
+    color: black;
+
+    margin: 20pt;
+    padding: 5pt;
+    border-style: solid;
+    border-width: 2pt;
+
+    text-decoration: none;
+    background-color: #eee;
+
+    .comic-title {
+        font-size: 15pt;
+    }
+}
+
+.comic-preview:hover {
+    background-color: #ddd;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
