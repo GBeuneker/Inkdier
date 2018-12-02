@@ -1,5 +1,4 @@
 .banner {
-
     a{
         text-decoration: none;
         color:black;
@@ -9,5 +8,31 @@
     a:hover {
         text-decoration: none;
         color: black;
+    }
+}
+
+.navbar {
+    list-style: none;
+    margin: 4pt;
+    padding: 0;
+    min-height: 0;
+
+    li {
+        display: inline;
+        margin: 10pt;
+    }
+
+    a {
+        display: inline-block;
+        height: 20pt;
+        line-height: 18pt; // = height - border-width
+        
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+    }
+
+    a:hover {
+        color: gray;    
     }
 }

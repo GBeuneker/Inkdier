@@ -25,10 +25,14 @@
 
 		</head>
 		<body>
-		{% include header.html %}
+		<div class="outer">
+			<div class="middle">
+				{% include header.html %}
 
-		{{ content }}
+				{{ content }}
 
-		{% include footer.html %}
+				{% include footer.html %}
+			</div>
+		</div>
 		</body>
 	</html>
