@@ -1,15 +1,49 @@
 html, body {
     background-color: #ddd;
     text-align: center;
+
 }
 
-.comic-container {
-    text-align: center;
-    min-width: 800px;
-
-    height: 500px;
-
+.box {
     border-style: solid;
     border-width: 1px;
     background-color: #eee;
+}
+
+.comic-container {
+    position: absolute;
+    width: 600pt;
+    left: 50%;
+    margin-left: -300pt;
+}
+
+.comic-navbar {
+    list-style: none;
+    margin: 4pt;
+
+    li {
+        display: inline;
+    }
+
+    a {
+        display: inline-block;
+        height: 20pt;
+        width: 70pt;
+        line-height: 18pt; // = height - border-width
+
+        background-color: #fff;
+        border-style: solid;
+        border-radius: 10pt;
+        border-color: gray;
+        border-width: 2pt;
+        
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+    }
+
+    a:hover {
+        background-color: #eee;
+        text-decoration: none;        
+    }
 }
