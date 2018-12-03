@@ -5,12 +5,17 @@
       <img src="{{site.baseurl}}/assets/images/funnyink.jpg">
     </a>
 
-    {% assign random = site.time | date: "%s%N" | modulo: site.posts.size %}
     <ul class="navbar">
       <li><a href="{{site.baseurl}}/archive.html">Archive</a></li>
-      <li><a href="{{site.posts[random].url}}">Random</a></li>
+      <li><a href="{{{{site.posts[random].url}}}}" id="randompost">Random</a></li>
       <li><a href="https://www.etsy.com/shop/FunnyInk">Shop</a></li>
     </ul>
 
   </div>
 </header>
+
+<script type="text/javascript">
+  var postsArray = [{% for post in site.posts %}"{{ post.url }}"{% unless forloop.last %},{% endunless %}{% endfor %}];
+  randomIndex = Math.floor(Math.random() * postsArray.length);
+  $("#randompost").attr("href", postsArray[randomIndex]);
+</script>

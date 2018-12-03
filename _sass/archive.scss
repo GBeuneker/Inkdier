@@ -1,4 +1,8 @@
-.comic-preview {
+.comic-tiles {
+    text-align: center;
+}
+
+.comic-tile {
     color: black;
 
     margin: 20pt;
@@ -6,15 +10,28 @@
     border-style: solid;
     border-width: 2pt;
 
+    min-height: 150pt;
+    min-width: 150pt;
+
     text-decoration: none;
     background-color: #eee;
+
+    display: inline-grid;
+    float: none;
+    /* inline-block space fix */
+    margin-right:-4px;
 
     .comic-title {
         font-size: 15pt;
     }
+
+    .comic {
+        position: absolute;
+        bottom: 15pt;
+    }
 }
 
-.comic-preview:hover {
+.comic-tile:hover {
     background-color: #ddd;
     text-decoration: none;
     color: black;

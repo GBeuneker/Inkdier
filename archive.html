@@ -2,9 +2,9 @@
 layout: default
 ---
 
-<div class="text-center container box">
+<div class="comic-tiles text-center container box">
 {% for post in site.posts %}
-    <a href= "{{post.url}}" class="comic-preview col-md-3">
+    <a href= "{{post.url}}" class="comic-tile col-md-1 col-sm-4 col-xs-4">
         <div class="comic-title">
             <p>{{post.title}}</p>
         </div>
