@@ -21,7 +21,7 @@ html, body {
     height: 100%;
     margin: 10pt auto;
 
-    font-family: Quirky Nots;
+    font-family: quirky nots;
     font-size: 15pt;
     font-weight: bold;
 }
@@ -55,13 +55,14 @@ html, body {
     font-family: quirky nots;
 
     h1 {
-        font-size: 40pt;
+        font-size: 50pt;
         font-weight: bold;
     }
 }
 
 .comic-navbar {
     margin: 10pt 0;
+    font-size: 12pt;
 
     li {
         margin: 0;
