@@ -28,7 +28,7 @@ layout: default
         {% endif %}
     </ul>
 
-    <p>Permanent link to this comic: {{page.url}}</p>
-    <p>Image URL (for hotlinking/embedding): {{site.baseurl}}/assets/images/{{page.images[0].url}} </p>
+    <p>Permanent link to this comic: <a href="{{site.url}}{{page.url}}">{{site.url}}{{page.url}}</a></p>
+    <p>Image URL (for hotlinking/embedding): <a href="{{site.url}}/assets/images/{{page.images[0].url}}">{{site.url}}/assets/images/{{page.images[0].url}}</a> </p>
 </div>
   
