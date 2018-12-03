@@ -20,12 +20,15 @@ layout: default
         </a>
     </div>
     <ul class="navbar comic-navbar">
-            {% if page.previous.url %}
-                <li><a href="{{page.previous.url}}">Previous</a></li>
-            {% endif %}
-            {% if page.next.url %}
-                <li><a href="{{page.next.url}}">Next</a></li>
-            {% endif %}
-        </ul>
+        {% if page.previous.url %}
+            <li><a href="{{page.previous.url}}">Previous</a></li>
+        {% endif %}
+        {% if page.next.url %}
+            <li><a href="{{page.next.url}}">Next</a></li>
+        {% endif %}
+    </ul>
+
+    <p>Permanent link to this comic: {{page.url}}</p>
+    <p>Image URL (for hotlinking/embedding): {{site.baseurl}}/assets/images/{{page.images[0].url}} </p>
 </div>
   
