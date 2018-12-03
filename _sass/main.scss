@@ -20,6 +20,10 @@ html, body {
     max-width: 600pt;
     height: 100%;
     margin: 10pt auto;
+
+    font-family: Quirky Nots;
+    font-size: 15pt;
+    font-weight: bold;
 }
 
 .outer {
@@ -47,6 +51,15 @@ html, body {
     }
 }
 
+.comic-title {
+    font-family: quirky nots;
+
+    h1 {
+        font-size: 40pt;
+        font-weight: bold;
+    }
+}
+
 .comic-navbar {
     margin: 10pt 0;
 
@@ -59,9 +72,15 @@ html, body {
 
         background-color: #fff;
         border-style: solid;
-        border-radius: 10pt;
-        border-color: gray;
+        border-radius:95% 4% 92% 5%/4% 95% 6% 95%;
+        border-color: black;
         border-width: 2pt;
+    }
+
+    a.disabled {
+        background-color: grey;
+        color: #555;
+        pointer-events: none;
     }
 
     a:hover {
