@@ -15,7 +15,9 @@ layout: default
         {% endif %}
     </ul>
     <div class="comic">
-        <img src="{{site.baseurl}}/assets/images/{{page.images[0].url}}">
+        <a href="{{site.baseurl}}/assets/images/{{page.images[0].url}}">
+            <img src="{{site.baseurl}}/assets/images/{{page.images[0].url}}">
+        </a>
     </div>
     <ul class="navbar comic-navbar">
             {% if page.previous.url %}

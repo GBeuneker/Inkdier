@@ -24,7 +24,10 @@
         font-size: 15pt;
     }
 
-    .comic {
+    .comic-preview {
+        img{
+            width: 70%;
+        }
         position: absolute;
         bottom: 15pt;
     }
