@@ -15,7 +15,7 @@
     min-width: 150pt;
 
     text-decoration: none;
-    background-color: #eee;
+    background-color: #fff;
 
     display: inline-grid;
     float: none;
@@ -27,6 +27,8 @@
     .comic-preview {
         img{
             width: 70%;
+            border-radius:95% 4% 92% 5%/4% 95% 6% 95%;
+            border: solid 2pt #000;
         }
         position: absolute;
         bottom: 15pt;

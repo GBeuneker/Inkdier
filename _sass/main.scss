@@ -11,13 +11,10 @@ html, body {
 .box {
     border-style: solid;
     border-width: 1px;
-    background-color: #eee;
-    background-image: url("assets/images/paper.png");
+    background-color: #fff;
 
     border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
     border:solid 2px #41403E;
-
-    box-shadow: 3pt 4pt 5pt #777;   
 }
 
 .container {
@@ -46,6 +43,8 @@ html, body {
 .comic {
     img {
         width: 70%;
+        border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+        border: solid 2pt #000;
     }
 }
 
