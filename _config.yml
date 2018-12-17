@@ -16,7 +16,7 @@
 title: FunnyInk - Custom comic strips, personalized cards and drawings
 email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
-  I love creating custom comic strips, personalized cards and drawings. Visit my Etsy shop if you'd like a custom comic strip made just for you!
+  This is the homepage for FunnyInk. Here you can follow my web comic series. I alse love creating custom comic strips, personalized cards and drawings. If you'd like a custom comic strip made just for you you can visit my Etsy shop!
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://www.funnyink.net" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
