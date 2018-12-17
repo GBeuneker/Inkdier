@@ -1,7 +1,7 @@
 ---
 layout: post
 images:   
-  - url: george&fendelwae.png
+  - url: comic1.png
     alt: Comic image
     title: Comic
 ---
