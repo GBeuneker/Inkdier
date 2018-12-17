@@ -42,17 +42,9 @@ html, body {
 
 .comic {
     img {
-        width: 90%;
+        width: 100%;
         border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
         border: solid 2pt #000;
-    }
-}
-
-@media screen and (max-device-width: 640px){
-    .comic {
-        img {
-            width: 100%;
-        }
     }
 }
 
