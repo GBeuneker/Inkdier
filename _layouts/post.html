@@ -11,11 +11,11 @@ layout: default
         <li><a href="{{page.next.url}}"{% if page.next.url == null %}class="disabled"{% endif %}>< Previous</a></li>
         <li><a href="{{page.previous.url}}"{% if page.previous.url == null %}class="disabled"{% endif %}>Next ></a></li>
     </ul>
-    <div class="comic">
-        <a href="{{site.baseurl}}/comics/{{page.images[0].url}}">
+    <a href="{{site.baseurl}}/comics/{{page.images[0].url}}">
+        <div class="comic">
             <img src="{{site.baseurl}}/comics/{{page.images[0].url}}" alt="comic_image">
-        </a>
-    </div>
+        </div>
+    </a>
     <ul class="navbar comic-navbar">
         <li><a href="{{page.next.url}}"{% if page.next.url == null %}class="disabled"{% endif %}>< Previous</a></li>
         <li><a href="{{page.previous.url}}"{% if page.previous.url == null %}class="disabled"{% endif %}>Next ></a></li>
