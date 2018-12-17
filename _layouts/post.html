@@ -8,8 +8,10 @@ layout: default
         <h2>{{page.title}}</h2>
     </div>
     <ul class="navbar comic-navbar">
+        <li><a href="{{site.posts.first.url}}"{% if site.posts.first.url == null %}class="disabled"{% endif %}>|<</a></li>
         <li><a href="{{page.next.url}}"{% if page.next.url == null %}class="disabled"{% endif %}>< Previous</a></li>
         <li><a href="{{page.previous.url}}"{% if page.previous.url == null %}class="disabled"{% endif %}>Next ></a></li>
+        <li><a href="{{site.posts.last.url}}"{% if site.posts.last.url == null %}class="disabled"{% endif %}>>|</a></li>
     </ul>
     <a href="{{site.baseurl}}/comics/{{page.images[0].url}}">
         <div class="comic">
@@ -17,8 +19,10 @@ layout: default
         </div>
     </a>
     <ul class="navbar comic-navbar">
+        <li><a href="{{site.posts.first.url}}"{% if site.posts.first.url == null %}class="disabled"{% endif %}>|<</a></li>
         <li><a href="{{page.next.url}}"{% if page.next.url == null %}class="disabled"{% endif %}>< Previous</a></li>
         <li><a href="{{page.previous.url}}"{% if page.previous.url == null %}class="disabled"{% endif %}>Next ></a></li>
+        <li><a href="{{site.posts.last.url}}"{% if site.posts.last.url == null %}class="disabled"{% endif %}>>|</a></li>
     </ul>
 
     <p>Permanent link to this comic: <a href="{{site.url}}{{page.url}}">{{site.url}}{{page.url}}</a></p>
