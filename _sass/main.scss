@@ -71,7 +71,8 @@ html, body {
     }
 
     a {
-        width: 80pt;
+        width: 20%;
+        min-width: 50pt;
 
         background-color: #fff;
         border-style: solid;
@@ -91,3 +92,10 @@ html, body {
         text-decoration: none;        
     }
 }
+
+@media screen and (max-width: 315px){
+    .comic-navbar a{   
+            width: 80pt;
+    }
+}
+
