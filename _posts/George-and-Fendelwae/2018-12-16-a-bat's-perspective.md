@@ -1,8 +1,9 @@
 ---
 layout: post
-category: George & Fendelwae
+subtitle: George & Fendelwae
+category: Webcomics
 images:   
-  - url: comic2.jpg
+  - url: comics/comic2.jpg
     alt: Comic image
     title: Comic
 ---

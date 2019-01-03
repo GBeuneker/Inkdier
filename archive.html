@@ -4,14 +4,15 @@ layout: default
 
 <div class="comic-tiles text-center container box">
 {% for post in site.posts %}
-    <a href= "{{post.url}}" class="comic-tile col-md-1 col-sm-4 col-xs-4">
-        <div class="comic-title">
-            <p>{{post.title}}</p>
-        </div>
-        <div class="comic-preview">
-            <img src="{{site.baseurl}}/comics/{{post.images[0].url}}">
-        </div>
-    </a>
-
+    {% if post.category == "George & Fendelwae"%}
+        <a href= "{{post.url}}" class="comic-tile col-md-1 col-sm-4 col-xs-4">
+            <div class="comic-title">
+                <p>{{post.title}}</p>
+            </div>
+            <div class="comic-preview">
+                <img src="{{site.baseurl}}/{{post.images[0].url}}">
+            </div>
+        </a>
+    {% endif %}
 {% endfor %}
 </div>

@@ -1,0 +1,17 @@
+---
+layout: default
+---
+
+<div class="comic-tiles text-center container box">
+  <h1>{{page.category}}</h1>
+
+  <div class="row">
+    {% for post in site.categories[page.category] %}
+      <div class="col-md-6 col-sm-6 image-preview-link">
+        <a href="{{site.baseurl}}/{{post.images[0].url}}">
+          <img src="{{site.baseurl}}/{{post.images[0].url}}">
+      </a>
+      </div>
+    {% endfor %}
+  </div>
+</div>

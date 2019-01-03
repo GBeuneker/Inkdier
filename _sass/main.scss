@@ -2,10 +2,12 @@ html, body {
     background-color: #fff;
     text-align: center;
     height: 100%;
+    min-width: 250pt;
 
     background-image: url("assets/images/background.jpg");
     background-repeat: repeat-y;
     background-size: 100% auto;
+    font-family: quirky nots;
 }
 
 .box {
@@ -17,12 +19,15 @@ html, body {
     border:solid 2px #41403E;
 }
 
+.text-bold {
+    font-weight: bold;
+}
+
 .container {
     max-width: 600pt;
     height: 100%;
     margin: 10pt auto;
 
-    font-family: quirky nots;
     font-size: 15pt;
     font-weight: bold;
     z-index: 10;

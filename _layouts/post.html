@@ -4,7 +4,7 @@ layout: default
 
 <div class="text-center container box" id="comic_box">
     <div class="comic-title">
-        <h1>{{page.category}}</h1>
+        <h1>{{page.subtitle}}</h1>
         <h2>{{page.title}}</h2>
     </div>
     <ul class="navbar comic-navbar">
@@ -13,9 +13,9 @@ layout: default
         <li><a href="{{page.previous.url}}"{% if page.previous.url == null %}class="disabled"{% endif %}>Next ></a></li>
         <li><a href="{{site.posts.last.url}}"{% if site.posts.last.url == null %}class="disabled"{% endif %}>>|</a></li>
     </ul>
-    <a href="{{site.baseurl}}/comics/{{page.images[0].url}}">
+    <a href="{{site.baseurl}}/{{page.images[0].url}}">
         <div class="comic">
-            <img src="{{site.baseurl}}/comics/{{page.images[0].url}}" alt="comic_image">
+            <img src="{{site.baseurl}}/{{page.images[0].url}}" alt="comic_image">
         </div>
     </a>
     <ul class="navbar comic-navbar">
@@ -26,6 +26,6 @@ layout: default
     </ul>
 
     <p>Permanent link to this comic: <a href="{{site.url}}{{page.url}}">{{site.url}}{{page.url}}</a></p>
-    <p>Image URL (for hotlinking/embedding): <a href="{{site.url}}/comics/{{page.images[0].url}}">{{site.url}}/comics/{{page.images[0].url}}</a> </p>
+    <p>Image URL (for hotlinking/embedding): <a href="{{site.url}}/{{page.images[0].url}}">{{site.url}}/{{page.images[0].url}}</a> </p>
 </div>
   
