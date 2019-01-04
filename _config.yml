@@ -13,10 +13,10 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: FunnyInk - Custom comic strips, personalized cards and drawings
+title: FunnyInk Home - Custom comic strips, personalized cards and drawings
 email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
-  This is the homepage for FunnyInk. Here you can follow my web comic series. I alse love creating custom comic strips, personalized cards and drawings. If you'd like a custom comic strip made just for you you can visit my Etsy shop!
+  This is the homepage for FunnyInk. Here you can follow my web comic series. You can also see my portfolio of custom comic strips, drawings, birthday cards and more. If you'd like a custom drawing made just for you or if you'd like to buy products with my drawings you can visit my shop! 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://www.funnyink.net" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
