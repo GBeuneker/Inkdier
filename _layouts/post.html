@@ -29,14 +29,14 @@ layout: default
 
     <ul class="navbar comic-navbar">
         {% for post in site.categories[cat] limit:1 %}
-        <li><a href="{{post.url}}"{% if post.url == null %}class="disabled"{% endif %}>|<</a></li>
+        <li><a href="{{post.url}}"{% if post.url == null %} class="disabled"{% endif %}>|&lt;</a></li>
         {% endfor %}
-        <li><a href="{{next_post.url}}"{% if next_post == null %}class="disabled"{% endif %}>< Prev</a></li>
-        <li><a href="{{prev_post.url}}"{% if prev_post == null %}class="disabled"{% endif %}>Next ></a></li>
+        <li><a href="{{next_post.url}}"{% if next_post == null %} class="disabled"{% endif %}>&lt; Prev</a></li>
+        <li><a href="{{prev_post.url}}"{% if prev_post == null %} class="disabled"{% endif %}>Next ></a></li>
         
         {% assign posts = site.categories[cat] | sort: 'date' %}
         {% for post in posts limit:1 %}
-            <li><a href="{{post.url}}"{% if post.url == null %}class="disabled"{% endif %}>>|</a></li>
+            <li><a href="{{post.url}}"{% if post.url == null %} class="disabled"{% endif %}>>|</a></li>
         {% endfor %}
     </ul>
 
@@ -48,14 +48,14 @@ layout: default
 
     <ul class="navbar comic-navbar">
         {% for post in site.categories[cat] limit:1 %}
-        <li><a href="{{post.url}}"{% if post.url == null %}class="disabled"{% endif %}>|<</a></li>
+        <li><a href="{{post.url}}"{% if post.url == null %} class="disabled"{% endif %}>|&lt;</a></li>
         {% endfor %}
-        <li><a href="{{next_post.url}}"{% if next_post == null %}class="disabled"{% endif %}>< Prev</a></li>
-        <li><a href="{{prev_post.url}}"{% if prev_post == null %}class="disabled"{% endif %}>Next ></a></li>
+        <li><a href="{{next_post.url}}"{% if next_post == null %} class="disabled"{% endif %}>&lt; Prev</a></li>
+        <li><a href="{{prev_post.url}}"{% if prev_post == null %} class="disabled"{% endif %}>Next ></a></li>
         
         {% assign posts = site.categories[cat] | sort: 'date' %}
         {% for post in posts limit:1 %}
-            <li><a href="{{post.url}}"{% if post.url == null %}class="disabled"{% endif %}>>|</a></li>
+            <li><a href="{{post.url}}"{% if post.url == null %} class="disabled"{% endif %}>>|</a></li>
         {% endfor %}
     </ul>
 
