@@ -8,21 +8,35 @@ layout: default
         <h2>{{page.title}}</h2>
     </div>
     <ul class="navbar comic-navbar">
-        <li><a href="{{site.posts.first.url}}"{% if site.posts.first.url == null %}class="disabled"{% endif %}>|<</a></li>
-        <li><a href="{{page.next.url}}"{% if page.next.url == null %}class="disabled"{% endif %}>< Previous</a></li>
-        <li><a href="{{page.previous.url}}"{% if page.previous.url == null %}class="disabled"{% endif %}>Next ></a></li>
-        <li><a href="{{site.posts.last.url}}"{% if site.posts.last.url == null %}class="disabled"{% endif %}>>|</a></li>
+        {% for post in site.categories['Webcomics'] limit:1 %}
+            <li><a href="{{post.url}}"{% if post.url == null %}class="disabled"{% endif %}>|<</a></li>
+        {% endfor %}
+        <li><a href="{{page.previous_in_category.url}}"{% if page.previous_in_category.url == null %}class="disabled"{% endif %}>< Previous</a></li>
+        <li><a href="{{page.next_in_category.url}}"{% if page.next_in_category.url == null %}class="disabled"{% endif %}>Next ></a></li>
+
+        {% assign posts = site.categories['Webcomics'] | sort: 'date' %}
+        {% for post in posts limit:1 %}
+            <li><a href="{{post.url}}"{% if post.url == null %}class="disabled"{% endif %}>>|</a></li>
+        {% endfor %}
     </ul>
+
     <a href="{{site.baseurl}}/{{page.images[0].url}}">
         <div class="comic">
             <img src="{{site.baseurl}}/{{page.images[0].url}}" alt="comic_image">
         </div>
     </a>
+
     <ul class="navbar comic-navbar">
-        <li><a href="{{site.posts.first.url}}"{% if site.posts.first.url == null %}class="disabled"{% endif %}>|<</a></li>
-        <li><a href="{{page.next.url}}"{% if page.next.url == null %}class="disabled"{% endif %}>< Previous</a></li>
-        <li><a href="{{page.previous.url}}"{% if page.previous.url == null %}class="disabled"{% endif %}>Next ></a></li>
-        <li><a href="{{site.posts.last.url}}"{% if site.posts.last.url == null %}class="disabled"{% endif %}>>|</a></li>
+        {% for post in site.categories['Webcomics'] limit:1 %}
+            <li><a href="{{post.url}}"{% if post.url == null %}class="disabled"{% endif %}>|<</a></li>
+        {% endfor %}
+        <li><a href="{{page.next_in_category.url}}"{% if page.next_in_category.url == null %}class="disabled"{% endif %}>< Previous</a></li>
+        <li><a href="{{page.previous_in_category.url}}"{% if page.previous_in_category.url == null %}class="disabled"{% endif %}>Next ></a></li>
+
+        {% assign posts = site.categories['Webcomics'] | sort: 'date' %}
+        {% for post in posts limit:1 %}
+            <li><a href="{{post.url}}"{% if post.url == null %}class="disabled"{% endif %}>>|</a></li>
+        {% endfor %}
     </ul>
 
     <p>Permanent link to this comic: <a href="{{site.url}}{{page.url}}">{{site.url}}{{page.url}}</a></p>
