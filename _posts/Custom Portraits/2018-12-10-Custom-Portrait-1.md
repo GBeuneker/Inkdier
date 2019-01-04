@@ -1,4 +1,5 @@
 ---
+permalink: none
 layout: post
 category: Custom Portraits
 images:   

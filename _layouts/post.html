@@ -2,6 +2,25 @@
 layout: default
 ---
 
+<!-- Make links for next and previous post -->
+{% assign cat = page.category %}
+
+{% for post in site.categories[cat] %}
+  {% if post.url == page.url %}
+    {% assign post_index0 = forloop.index0 %}
+    {% assign post_index1 = forloop.index %}
+  {% endif %}
+{% endfor %}
+
+{% for post in site.categories[cat] %}
+  {% if post_index0 == forloop.index %}
+    {% assign next_post = post %}
+  {% endif %}
+  {% if post_index1 == forloop.index0 %}
+    {% assign prev_post = post %}
+  {% endif %}
+{% endfor %}
+
 <div class="text-center container box" id="comic_box">
     <div class="comic-title">
         <h1>{{page.subtitle}}</h1>
@@ -9,13 +28,13 @@ layout: default
     </div>
 
     <ul class="navbar comic-navbar">
-        {% for post in site.categories['Webcomics'] limit:1 %}
-            <li><a href="{{post.url}}"{% if post.url == null %}class="disabled"{% endif %}>|<</a></li>
+        {% for post in site.categories[cat] limit:1 %}
+        <li><a href="{{post.url}}"{% if post.url == null %}class="disabled"{% endif %}>|<</a></li>
         {% endfor %}
-        <li><a href="{{page.previous_in_category.url}}"{% if page.previous_in_category.url == null %}class="disabled"{% endif %}>< Previous</a></li>
-        <li><a href="{{page.next_in_category.url}}"{% if page.next_in_category.url == null %}class="disabled"{% endif %}>Next ></a></li>
-
-        {% assign posts = site.categories['Webcomics'] | sort: 'date' %}
+        <li><a href="{{next_post.url}}"{% if next_post == null %}class="disabled"{% endif %}>< Previous</a></li>
+        <li><a href="{{prev_post.url}}"{% if prev_post == null %}class="disabled"{% endif %}>Next ></a></li>
+        
+        {% assign posts = site.categories[cat] | sort: 'date' %}
         {% for post in posts limit:1 %}
             <li><a href="{{post.url}}"{% if post.url == null %}class="disabled"{% endif %}>>|</a></li>
         {% endfor %}
@@ -28,13 +47,13 @@ layout: default
     </a>
 
     <ul class="navbar comic-navbar">
-        {% for post in site.categories['Webcomics'] limit:1 %}
-            <li><a href="{{post.url}}"{% if post.url == null %}class="disabled"{% endif %}>|<</a></li>
+        {% for post in site.categories[cat] limit:1 %}
+        <li><a href="{{post.url}}"{% if post.url == null %}class="disabled"{% endif %}>|<</a></li>
         {% endfor %}
-        <li><a href="{{page.previous_in_category.url}}"{% if page.previous_in_category.url == null %}class="disabled"{% endif %}>< Previous</a></li>
-        <li><a href="{{page.next_in_category.url}}"{% if page.next_in_category.url == null %}class="disabled"{% endif %}>Next ></a></li>
-
-        {% assign posts = site.categories['Webcomics'] | sort: 'date' %}
+        <li><a href="{{next_post.url}}"{% if next_post == null %}class="disabled"{% endif %}>< Previous</a></li>
+        <li><a href="{{prev_post.url}}"{% if prev_post == null %}class="disabled"{% endif %}>Next ></a></li>
+        
+        {% assign posts = site.categories[cat] | sort: 'date' %}
         {% for post in posts limit:1 %}
             <li><a href="{{post.url}}"{% if post.url == null %}class="disabled"{% endif %}>>|</a></li>
         {% endfor %}
