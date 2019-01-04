@@ -6,10 +6,11 @@
         transition: color ease-in-out 0.1s;
         text-decoration: none;
         color: grey;
+        font-size: 30pt;
     }
     img {
         max-width: 100%;
-        max-height: 100%;
+        max-height: 120pt;
         height: auto;
 
         transition: opacity ease-in-out 0.1s;
@@ -21,10 +22,8 @@
     }
 
     a:hover {
-        a {
-            transition: color ease-in-out 0.1s;
-            color: black;
-        }
+        transition: color ease-in-out 0.1s;
+        color: black;
     
         img {
             transition: opacity ease-in-out 0.1s;
