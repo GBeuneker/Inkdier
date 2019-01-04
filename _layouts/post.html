@@ -7,6 +7,7 @@ layout: default
         <h1>{{page.subtitle}}</h1>
         <h2>{{page.title}}</h2>
     </div>
+
     <ul class="navbar comic-navbar">
         {% for post in site.categories['Webcomics'] limit:1 %}
             <li><a href="{{post.url}}"{% if post.url == null %}class="disabled"{% endif %}>|<</a></li>
@@ -30,8 +31,8 @@ layout: default
         {% for post in site.categories['Webcomics'] limit:1 %}
             <li><a href="{{post.url}}"{% if post.url == null %}class="disabled"{% endif %}>|<</a></li>
         {% endfor %}
-        <li><a href="{{page.next_in_category.url}}"{% if page.next_in_category.url == null %}class="disabled"{% endif %}>< Previous</a></li>
-        <li><a href="{{page.previous_in_category.url}}"{% if page.previous_in_category.url == null %}class="disabled"{% endif %}>Next ></a></li>
+        <li><a href="{{page.previous_in_category.url}}"{% if page.previous_in_category.url == null %}class="disabled"{% endif %}>< Previous</a></li>
+        <li><a href="{{page.next_in_category.url}}"{% if page.next_in_category.url == null %}class="disabled"{% endif %}>Next ></a></li>
 
         {% assign posts = site.categories['Webcomics'] | sort: 'date' %}
         {% for post in posts limit:1 %}
