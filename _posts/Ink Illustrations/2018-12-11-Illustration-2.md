@@ -1,9 +1,9 @@
 ---
 permalink: none
 layout: post
-category: Ink Drawings
+category: Ink Illustrations
 images:   
-  - url: assets/images/drawing4.jpg
+  - url: assets/images/illustration2.jpg
     alt: Drawing image
     title: Drawing
 ---
