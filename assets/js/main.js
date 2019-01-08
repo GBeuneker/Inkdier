@@ -26,5 +26,6 @@ function getRandomPost(postArray) {
 
 function goToComic()
 {
-    window.scrollTo(0,$('#comic_box').offset().top);
+    if($('#comic_box').length)
+        window.scrollTo(0,$('#comic_box').offset().top);
 }
