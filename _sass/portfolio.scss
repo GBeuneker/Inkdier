@@ -1,26 +1,31 @@
-.image-preview-link {
+.image-preview {
     margin: 15pt 0;
     height: 150pt;
 
-    a{
-        transition: color ease-in-out 0.1s;
-        text-decoration: none;
-        color: grey;
-        font-size: 30pt;
-    }
     img {
         max-width: 100%;
         max-height: 120pt;
         height: auto;
         border-radius:95% 4% 92% 5%/4% 95% 6% 95%;
         border: solid 2pt #000;
-
-        transition: opacity ease-in-out 0.1s;
-        opacity: 0.8;
     }
     h3 {
         padding: 0;
         margin: 5pt 0;
+    }
+}
+
+.image-link {
+    a {
+        transition: color ease-in-out 0.1s;
+        text-decoration: none;
+        color: grey;
+        font-size: 30pt;
+    }
+
+    img {
+        transition: opacity ease-in-out 0.1s;
+        opacity: 0.8;
     }
 
     a:hover {

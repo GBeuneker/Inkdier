@@ -40,11 +40,9 @@ layout: default
         {% endfor %}
     </ul>
 
-    <a href="{{site.baseurl}}/{{page.images[0].url}}">
-        <div class="comic">
-            <img src="{{site.baseurl}}/{{page.images[0].url}}" alt="comic_image">
-        </div>
-    </a>
+    <div class="comic">
+        <img src="{{site.baseurl}}/{{page.images[0].url}}" alt="comic_image">
+    </div>
 
     <ul class="navbar comic-navbar">
         {% for post in site.categories[cat] limit:1 %}

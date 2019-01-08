@@ -7,10 +7,8 @@ layout: default
 
   <div class="row">
     {% for post in site.categories[page.category] %}
-      <div class="col-md-6 col-sm-6 image-preview-link">
-        <a href="{{site.baseurl}}/{{post.images[0].url}}">
-          <img src="{{site.baseurl}}/{{post.images[0].url}}">
-      </a>
+      <div class="col-md-6 col-sm-6 image-preview">
+        <img src="{{site.baseurl}}/{{post.images[0].url}}" class="img-modal">
       </div>
     {% endfor %}
   </div>
