@@ -1,7 +1,31 @@
 ---
-layout: null
+layout: default
 ---
 
-{% for post in site.categories.Webcomics limit:1%}
-    {{ post }}
-{% endfor %}
+<div class="text-center box">
+    <div class="container">
+
+        <h2 class="text-bold">Who am I?</h2>
+        <div class="text-field">
+            <p>Ik creëer striptekeningen, portretten, en andere illustraties (vooral van dieren en landschappen) met inkt.</p>
+            <p>Mijn hoofdaanvragen zijn gepersonaliseerde striptekeningen en portretten; u kunt bij mij terecht met grappige eigenschappen van uzelf, vrienden of familie, inside jokes, of zelfs al complete ideeën voor een verhaal, en ik ga ermee aan de slag!</p>
+        </div>
+
+        <h2 class="text-bold">Portfolio</h2>
+        <div class="row">
+            {% for category in site.categories reversed %}
+                {% assign cat = category | first %}
+                
+                {% for post in site.categories[cat] limit:1 %}
+                <div class="col-md-4 col-sm-4 image-preview image-link">
+                    <a href="{{site.baseurl}}/categories/{{post.category}}">            
+                        <img src="{{site.baseurl}}/{{post.images[0].url}}"/>
+                        <h3>{{ post.category }}</h3>
+                    </a>
+                </div>
+                {% endfor %}
+                
+            {% endfor %}
+        </div>
+    </div>
+</div>

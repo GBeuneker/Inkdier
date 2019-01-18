@@ -23,13 +23,18 @@ html, body {
     font-weight: bold;
 }
 
+.text-field {
+    text-align: center;
+    margin: auto;
+    max-width: 300pt;
+}
+
 .container {
     max-width: 600pt;
     height: 100%;
     margin: 10pt auto;
 
     font-size: 15pt;
-    font-weight: bold;
     z-index: 10;
     position: relative;
 }

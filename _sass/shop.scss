@@ -18,6 +18,12 @@
     }
 }
 
+.tile-small {
+    img {
+        max-height: 30pt;
+    }
+}
+
 .link-tile:hover {
     a {
         text-decoration: none;
