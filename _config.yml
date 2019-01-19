@@ -14,7 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: FunnyInk Home - Custom comic strips, personalized cards and drawings
-email: your-email@example.com
+email: contact@funnyink.net
 description: >- # this means to ignore newlines until "baseurl:"
   This is the homepage for FunnyInk. Here you can follow my web comic series. You can also see my portfolio of custom comic strips, drawings, birthday cards and more. If you'd like a custom drawing made just for you or if you'd like to buy products of my drawings you can visit my shop! 
 baseurl: "" # the subpath of your site, e.g. /blog
