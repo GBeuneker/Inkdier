@@ -1,13 +1,11 @@
 .banner {
     a{
         text-decoration: none;
-        color:black;
         font-weight: bold;
     }
 
     a:hover {
-        text-decoration: none;
-        color: black;
+        color: gray;
     }
 
     img {
@@ -34,8 +32,8 @@
         line-height: 18pt; // = height - border-width
         
         text-decoration: none;
-        color: black;
         font-weight: bold;
+        color: inherit;
     }
 
     a:hover {
