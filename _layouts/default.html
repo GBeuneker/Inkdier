@@ -1,11 +1,6 @@
 <!DOCTYPE html>
 	<html lang="en">
 		<head>
-			<!-- Google Analytics -->
-			{% if site.google_analytics and jekyll.environment == 'production' %}
-			{% include analytics.html %}
-			{% endif %}
-
 			<title>{{site.title}}</title>
 			<meta charset="UTF-8"> 
 			<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -25,6 +20,11 @@
 
 			<!-- scripts -->
 			<script src="{{site.baseurl}}/assets/js/main.js"></script>
+			
+			<!-- Google Analytics -->
+			{% if site.google_analytics and jekyll.environment == 'production' %}
+			{% include analytics.html %}
+			{% endif %}
 		</head>
 		<body>
 			<div class="outer">
