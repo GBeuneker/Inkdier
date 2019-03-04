@@ -1,9 +1,9 @@
 ---
 permalink: none
 layout: post
-category: Ink Illustrations
+category: Watercolor Illustrations
 images:   
-  - url: assets/images/illustration1.jpg
+  - url: assets/images/illustration12.jpg
     alt: Drawing image
     title: Drawing
 ---
