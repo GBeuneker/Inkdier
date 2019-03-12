@@ -4,10 +4,6 @@ auto_deploy: false
 admin_path: 
 webhook_url: 
 sections:
-- type: document
-  path: index.html
-  label: Index
-  match: "**/*"
 - type: heading
   label: Content
 - type: jekyll-pages
@@ -21,6 +17,9 @@ sections:
 - type: document
   path: _sass/fonts.scss
   label: Imported Fonts
+- type: document
+  path: _sass/typography.scss
+  label: Typography
 upload_dir: assets
 public_path: "/assets"
 front_matter_path: ''
