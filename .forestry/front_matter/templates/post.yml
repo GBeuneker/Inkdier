@@ -1,12 +1,13 @@
 ---
 label: Post
 hide_body: true
+display_field: layout
 fields:
 - name: layout
   label: Layout
   type: text
   hidden: false
-  default: ''
+  default: post
 - name: category
   label: Category
   type: tag_list
@@ -16,7 +17,7 @@ fields:
   label: Permalink
   type: text
   hidden: false
-  default: ''
+  default: none
 - name: images
   label: Images
   type: field_group_list
