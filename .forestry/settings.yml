@@ -12,17 +12,6 @@ sections:
 - type: jekyll-posts
   label: Posts
   create: all
-- type: heading
-  label: Visuals
-- type: directory
-  path: assets/fonts
-  label: Fonts Folder
-  create: none
-  match: "**/*"
-- type: document
-  path: "../main.scss"
-  label: Main css
-  match: "**/*"
 upload_dir: assets
 public_path: "/assets"
 front_matter_path: ''
