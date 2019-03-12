@@ -4,18 +4,6 @@ auto_deploy: false
 admin_path: 
 webhook_url: 
 sections:
-- type: document
-  path: _sass/fonts.scss
-  label: Imported Fonts
-  match: "**/*"
-- type: directory
-  path: assets/fonts
-  label: Fonts
-  create: all
-  match: "**/*"
-- type: document
-  path: _sass/typography.scss
-  label: Typography
 - type: heading
   label: Content
 - type: jekyll-pages
@@ -26,6 +14,18 @@ sections:
   create: all
 - type: heading
   label: Visuals
+- type: document
+  path: _sass/fonts.css
+  label: Imported Fonts
+  match: "**/*"
+- type: directory
+  path: assets/fonts
+  label: Fonts
+  create: all
+  match: "**/*"
+- type: document
+  path: _sass/typography.scss
+  label: Typography
 upload_dir: assets
 public_path: "/assets"
 front_matter_path: ''
