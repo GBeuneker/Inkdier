@@ -1,0 +1,15 @@
+---
+label: Category
+hide_body: false
+display_field: category
+fields:
+- name: category
+  label: Category
+  type: tag_list
+  hidden: false
+  default: ''
+- name: layout
+  label: Layout
+  type: text
+  hidden: false
+  default: none
