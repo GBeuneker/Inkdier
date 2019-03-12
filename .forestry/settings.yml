@@ -18,11 +18,7 @@ sections:
   path: assets/fonts
   label: Fonts Folder
   create: none
-  match: "**/*"
-- type: document
-  path: "../_sass/typography.scss"
-  label: Typography
-  match: "**/*"
+  match: "**/*.otf"
 upload_dir: assets
 public_path: "/assets"
 front_matter_path: ''
