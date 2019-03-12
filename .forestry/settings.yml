@@ -4,15 +4,14 @@ auto_deploy: false
 admin_path: 
 webhook_url: 
 sections:
-- type: document
-  path: _sass/typography.scss
-  label: Typography
-  match: "**/*"
 - type: directory
   path: assets/fonts
   label: Fonts
   create: all
   match: "**/*"
+- type: document
+  path: _sass/typography.scss
+  label: Typography
 - type: heading
   label: Content
 - type: jekyll-pages
