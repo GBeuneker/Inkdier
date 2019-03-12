@@ -15,7 +15,7 @@ sections:
 - type: heading
   label: Visuals
 - type: document
-  path: _sass/fonts.css
+  path: _sass/fonts.scss
   label: Imported Fonts
   match: "**/*"
 - type: directory
