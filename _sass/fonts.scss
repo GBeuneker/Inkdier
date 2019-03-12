@@ -1,9 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Caveat|Dosis|Gamja+Flower|Gloria+Hallelujah|Indie+Flower|Kalam|Patrick+Hand|Poppins|Titillium+Web');
 
+// Import external/online fonts
 @font-face {
-    src: url("assets/fonts/Quirky Nots.otf");
-    font-family: 'Quirky Nots';
-
     font-family: 'Poppins', sans-serif;
     font-family: 'Titillium Web', sans-serif;
     font-family: 'Gamja Flower', cursive;
@@ -13,4 +11,10 @@
     font-family: 'Patrick Hand', cursive;
     font-family: 'Caveat', cursive;
     font-family: 'Kalam', cursive;
+}
+
+// Import local fonts
+@font-face {
+    src: url("assets/fonts/Quirky Nots.otf");
+    font-family: 'Quirky Nots';
 }
