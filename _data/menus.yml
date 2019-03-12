@@ -1,1 +1,6 @@
---- {}
+--- 
+header:
+  - url: {{site.url}}
+    title: Home
+    identifier: home
+---
