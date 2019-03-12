@@ -1,0 +1,14 @@
+---
+label: Category Template
+hide_body: true
+fields:
+- name: layout
+  label: Layout
+  type: text
+  hidden: false
+  default: ''
+- name: category
+  label: Category
+  type: tag_list
+  hidden: false
+  default: ''
