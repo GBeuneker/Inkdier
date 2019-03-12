@@ -14,14 +14,14 @@ sections:
   create: all
 - type: heading
   label: Visuals
+- type: directory
+  path: assets/fonts
+  label: Fonts Folder
+  create: none
+  match: "**/*"
 - type: document
   path: _sass/fonts.scss
   label: Imported Fonts
-- type: directory
-  path: assets/fonts
-  label: Fonts
-  create: all
-  match: "**/*"
 - type: document
   path: _sass/typography.scss
   label: Typography
