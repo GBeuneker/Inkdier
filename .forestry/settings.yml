@@ -20,8 +20,8 @@ sections:
   create: none
   match: "**/*"
 - type: document
-  path: "../main.css"
-  label: css
+  path: "../main.scss"
+  label: Main css
   match: "**/*"
 upload_dir: assets
 public_path: "/assets"
