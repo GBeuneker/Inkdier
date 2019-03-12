@@ -7,7 +7,6 @@ sections:
 - type: document
   path: assets/fonts
   label: Fonts
-  match: "**/*"
 - type: jekyll-pages
   label: Pages
   create: all
