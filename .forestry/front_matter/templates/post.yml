@@ -38,5 +38,3 @@ fields:
     default: ''
   hidden: false
   default: ''
-pages:
-- assets/fonts/test.md
