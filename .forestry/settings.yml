@@ -17,7 +17,6 @@ sections:
 - type: document
   path: _sass/fonts.scss
   label: Imported Fonts
-  match: "**/*"
 - type: directory
   path: assets/fonts
   label: Fonts
