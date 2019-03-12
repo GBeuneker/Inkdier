@@ -18,6 +18,10 @@ sections:
   path: _sass/fonts.scss
   label: Imported Fonts
   match: "**/*"
+- type: document
+  path: "../_sass/typography.scss"
+  label: Typography
+  match: "**/*"
 upload_dir: assets
 public_path: "/assets"
 front_matter_path: ''
