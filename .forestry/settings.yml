@@ -20,10 +20,10 @@ sections:
   create: none
   match: "**/*"
 - type: document
-  path: _sass/fonts.scss
+  path: "../_sass/fonts.scss"
   label: Imported Fonts
 - type: document
-  path: _sass/typography.scss
+  path: "../_sass/typography.scss"
   label: Typography
 upload_dir: assets
 public_path: "/assets"
