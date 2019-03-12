@@ -12,6 +12,8 @@ sections:
 - type: jekyll-posts
   label: Posts
   create: all
+- type: heading
+  label: Visuals
 upload_dir: assets
 public_path: "/assets"
 front_matter_path: ''
