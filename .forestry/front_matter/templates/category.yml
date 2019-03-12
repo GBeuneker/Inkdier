@@ -18,3 +18,5 @@ fields:
     source:
       type: documents
 - type: include
+pages:
+- categories/Test.html.md
