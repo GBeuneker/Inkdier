@@ -1,6 +1,6 @@
---- 
-header:
-  - url: {{site.url}}
-    title: Home
-    identifier: home
 ---
+header:
+- url: {}
+  title: Home
+  identifier: home
+  weight: 1
