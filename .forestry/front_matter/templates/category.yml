@@ -12,9 +12,4 @@ fields:
   label: Layout
   type: text
   hidden: false
-  default: ''
-- type: select
-  config:
-    source:
-      type: documents
-- type: include
+  default: none
