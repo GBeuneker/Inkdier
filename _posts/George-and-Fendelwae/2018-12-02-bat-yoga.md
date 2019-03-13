@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: webcomic
 subtitle: George & Fendelwae
 category: Webcomics
 images:   
