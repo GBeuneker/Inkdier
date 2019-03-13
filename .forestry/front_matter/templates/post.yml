@@ -37,9 +37,5 @@ fields:
     default: ''
   hidden: false
   default: ''
-- type: file
-  description: Image of this post
-  name: image
-  label: Image
 pages:
 - _posts/Logos/2019-01-01-Test1.md
