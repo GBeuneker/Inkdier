@@ -25,11 +25,20 @@ fields:
   name: category
   config:
     source:
-      type: pages
+      type: simple
       section: categories
       file: categories/Custom Comics.html
+    options:
+    - Cards
+    - Custom Cards
+    - Custom Comics
+    - Custom Portraits
+    - Illustrations
+    - Logos
+    - Watercolor Illustrations
+    - Webcomics
   label: Category
-  default: categories/Custom Comics.html
+  default: ''
 pages:
 - _posts/2019-03-13-test.md
 - _posts/Logos/2019-03-13-Logo1.md
