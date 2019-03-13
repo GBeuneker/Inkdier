@@ -30,6 +30,7 @@ fields:
   hidden: true
   default: none
 pages:
+- _posts/llustrations/2018-12-10-Illustration-1.md
 - _posts/George-and-Fendelwae/2018-12-02-bat-yoga.md
 - _posts/Custom Portraits/2018-12-10-Custom-Portrait-2.md
 - _posts/Custom Portraits/2018-12-10-Custom-Portrait-1.md
