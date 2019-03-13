@@ -10,7 +10,7 @@ fields:
   label: Layout
   type: text
   hidden: true
-  default: none
+  default: category
 pages:
 - categories/Illustrations.html
 - categories/Webcomics.html
