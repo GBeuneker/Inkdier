@@ -41,3 +41,5 @@ fields:
   description: Image of this post
   name: image
   label: Image
+pages:
+- _posts/Logos/2019-01-01-Test1.md
