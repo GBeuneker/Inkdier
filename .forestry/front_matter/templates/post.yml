@@ -40,5 +40,4 @@ fields:
   label: Category
   default: ''
 pages:
-- _posts/2019-03-13-test.md
 - _posts/Logos/2019-03-13-Logo1.md
