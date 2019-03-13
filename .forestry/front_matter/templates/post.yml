@@ -2,35 +2,29 @@
 label: Post
 hide_body: true
 fields:
-- name: layout
-  label: Layout
-  type: text
+- type: file
+  name: imageurl
+  label: Image
+  description: Post Image
   hidden: false
-  default: post
+- type: text
+  name: title
+  label: Title
+  description: Post Title
 - name: category
   label: Category
   type: tag_list
   hidden: false
   default: ''
+- name: layout
+  label: Layout
+  type: text
+  hidden: true
+  default: post
 - name: permalink
   label: Permalink
   type: text
-  hidden: false
+  hidden: true
   default: none
-- name: images
-  label: Images
-  type: field_group_list
-  fields:
-  - type: file
-    name: url
-    label: Image
-    description: Post Image
-  - name: title
-    label: Title
-    type: text
-    hidden: false
-    default: ''
-  hidden: false
-  default: ''
 pages:
 - _posts/Logos/2019-03-13-Logo1.md
