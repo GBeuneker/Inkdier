@@ -1,7 +1,7 @@
 ---
 layout: post
 subtitle: George & Fendelwae
-category: Webcomics
+category: categories/Webcomics.html
 imageurl: "/comics/comic2.jpg"
 title: A bat's perspective
 permalink: none
