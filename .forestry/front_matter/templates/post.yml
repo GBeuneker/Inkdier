@@ -31,5 +31,5 @@ fields:
   label: Category
   default: categories/Custom Comics.html
 pages:
-- _posts/test.md
+- _posts/2019-03-13-test.md
 - _posts/Logos/2019-03-13-Logo1.md
