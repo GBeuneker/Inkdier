@@ -2,11 +2,10 @@
 label: Category
 hide_body: true
 fields:
-- name: category
+- type: text
+  name: category
   label: Category
-  type: tag_list
-  hidden: false
-  default: ''
+  description: The name of this category
 - name: layout
   label: Layout
   type: text
