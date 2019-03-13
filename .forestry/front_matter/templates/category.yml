@@ -13,4 +13,5 @@ fields:
   hidden: true
   default: none
 pages:
+- categories/Custom Cards.html
 - categories/Cards.html
