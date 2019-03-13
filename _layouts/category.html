@@ -4,7 +4,8 @@ layout: default
 
 <div class="comic-tiles text-center container box">
   {% assign categoryName = page.name  | remove: "categories/" | remove: ".html" %}
-  <h1>{{categoryName}}</h1>
+  {% assign category = "categories/" | append: page.name %}
+  <h1>{{category}}</h1>
 
   <div class="row">
     {% for post in site.categories[categories/page.name] %}
