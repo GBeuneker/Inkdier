@@ -38,3 +38,5 @@ fields:
     default: ''
   hidden: false
   default: ''
+pages:
+- _posts/Logos/2019-03-13-Logo1.md
