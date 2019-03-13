@@ -30,6 +30,7 @@ fields:
   hidden: true
   default: none
 pages:
+- _posts/Custom Comics/2019-01-02-Correntje-&-Simon-Simpleton.md
 - _posts/Custom Comics/2018-12-20-Nutty-People.md
 - _posts/Custom Comics/2018-12-12-The-Furse.md
 - _posts/Custom Comics/2018-12-11-The-Red-Poncho.md
