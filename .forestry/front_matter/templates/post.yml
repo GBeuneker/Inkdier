@@ -30,5 +30,6 @@ fields:
   hidden: true
   default: none
 pages:
+- _posts/Cards/2019-02-17-Card1.md
 - _posts/George-and-Fendelwae/2018-12-16-a-bat's-perspective.md
 - _posts/Logos/2019-03-13-Logo1.md
