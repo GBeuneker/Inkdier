@@ -30,6 +30,7 @@ fields:
   hidden: true
   default: none
 pages:
+- _posts/llustrations/2019-01-25-Illustration-9.md
 - _posts/llustrations/2019-01-25-Illustration-8.md
 - _posts/llustrations/2019-01-25-Illustration-7.md
 - _posts/llustrations/2019-01-18-Illustration-6.md
