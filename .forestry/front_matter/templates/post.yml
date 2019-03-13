@@ -11,11 +11,6 @@ fields:
   name: title
   label: Title
   description: Post Title
-- name: category
-  label: Category
-  type: tag_list
-  hidden: false
-  default: ''
 - name: layout
   label: Layout
   type: text
@@ -26,5 +21,14 @@ fields:
   type: text
   hidden: true
   default: none
+- type: select
+  name: category
+  config:
+    source:
+      type: pages
+      section: categories
+      file: categories/Custom Comics.html
+  label: Category
+  default: categories/Custom Comics.html
 pages:
 - _posts/Logos/2019-03-13-Logo1.md
