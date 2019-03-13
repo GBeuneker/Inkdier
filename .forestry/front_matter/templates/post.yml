@@ -30,6 +30,7 @@ fields:
   hidden: true
   default: none
 pages:
+- _posts/Custom Comics/2018-12-12-The-Furse.md
 - _posts/Custom Comics/2018-12-11-The-Red-Poncho.md
 - _posts/Custom Comics/2018-12-10-Lovers-In-A-Dangerous-Spacetime.md
 - _posts/Custom Cards/2018-12-10-Custom-Card-1.md
