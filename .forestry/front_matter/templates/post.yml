@@ -30,6 +30,7 @@ fields:
   hidden: true
   default: none
 pages:
+- _posts/Custom Comics/2018-12-10-Lovers-In-A-Dangerous-Spacetime.md
 - _posts/Custom Cards/2018-12-10-Custom-Card-1.md
 - _posts/Cards/2019-02-17-Card3.md
 - _posts/Cards/2019-02-17-Card4.md
