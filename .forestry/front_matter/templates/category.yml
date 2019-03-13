@@ -12,6 +12,7 @@ fields:
   hidden: true
   default: none
 pages:
+- categories/Logos.html
 - categories/Custom Portraits.html
 - categories/Custom Comics.html
 - categories/Custom Cards.html
