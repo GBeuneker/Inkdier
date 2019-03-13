@@ -11,6 +11,14 @@ fields:
   name: title
   label: Title
   description: Post Title
+- type: select
+  name: category
+  config:
+    source:
+      type: pages
+      section: categories
+  label: Category
+  description: The category of this post
 - name: layout
   label: Layout
   type: text
@@ -21,23 +29,5 @@ fields:
   type: text
   hidden: true
   default: none
-- type: select
-  name: category
-  config:
-    source:
-      type: simple
-      section: categories
-      file: categories/Custom Comics.html
-    options:
-    - Cards
-    - Custom Cards
-    - Custom Comics
-    - Custom Portraits
-    - Illustrations
-    - Logos
-    - Watercolor Illustrations
-    - Webcomics
-  label: Category
-  default: ''
 pages:
 - _posts/Logos/2019-03-13-Logo1.md
