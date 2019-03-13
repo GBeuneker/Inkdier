@@ -1,7 +1,8 @@
 ---
 permalink: none
 layout: post
-category: Illustrations
-imageurl: /assets/images/illustration10.jpg
+category: categories/Illustrations.html
+imageurl: "/assets/images/illustration10.jpg"
 title: Illustration10
+
 ---
