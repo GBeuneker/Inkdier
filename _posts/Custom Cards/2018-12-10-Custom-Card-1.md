@@ -1,7 +1,8 @@
 ---
 permalink: none
 layout: post
-category: Custom Cards
-imageurl: /assets/images/customcard1.jpg
+category: categories/Custom Cards.html
+imageurl: "/assets/images/customcard1.jpg"
 title: Customcard1
+
 ---
