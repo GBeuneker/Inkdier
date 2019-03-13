@@ -2,8 +2,6 @@
 permalink: none
 layout: post
 category: Illustrations
-images:   
-  - url: /assets/images/illustration1.jpg
-    alt: Drawing image
-    title: Drawing
+imageurl: /assets/images/illustration1.jpg
+title: Illustration1
 ---
