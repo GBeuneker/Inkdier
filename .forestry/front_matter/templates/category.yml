@@ -1,7 +1,6 @@
 ---
 label: Category
-hide_body: false
-display_field: category
+hide_body: true
 fields:
 - name: category
   label: Category
@@ -11,5 +10,5 @@ fields:
 - name: layout
   label: Layout
   type: text
-  hidden: false
+  hidden: true
   default: none
