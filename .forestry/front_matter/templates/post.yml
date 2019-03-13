@@ -21,11 +21,10 @@ fields:
   label: Images
   type: field_group_list
   fields:
-  - name: url
-    label: Url
-    type: text
-    hidden: false
-    default: ''
+  - type: file
+    name: url
+    label: Image
+    description: Post Image
   - name: alt
     label: Alt
     type: text
