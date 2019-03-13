@@ -16,10 +16,11 @@ layout: default
                 {% assign cat = category | first %}
                 
                 {% for post in site.categories[cat] limit:1 %}
+                {% assign categoryName = post.category  | remove: ".html" %}
                 <div class="col-md-4 col-sm-4 image-preview image-link">
-                    <a href="{{site.baseurl}}/categories/{{post.category}}">            
+                    <a href="{{site.baseurl}}/categories/{{categoryName}}">            
                         <img src="{{site.baseurl}}{{post.imageurl}}" alt="{{post.title}}" />
-                        <h3>{{ post.category }}</h3>
+                        <h3>{{ categoryName }}</h3>
                     </a>
                 </div>
                 {% endfor %}

@@ -3,11 +3,11 @@ layout: default
 ---
 
 <div class="comic-tiles text-center container box">
-  {% assign category = page.name  | remove: ".html" %}
-  <h1>{{category}}</h1>
+  {% assign categoryName = page.name  | remove: ".html" %}
+  <h1>{{categoryName}}</h1>
 
   <div class="row">
-    {% for post in site.categories[category] %}
+    {% for post in site.categories[page.name] %}
       <div class="col-md-6 col-sm-6 image-preview">
         <img src="{{site.baseurl}}{{post.imageurl}}" alt="{{post.title}}" class="img-modal"/>
       </div>
