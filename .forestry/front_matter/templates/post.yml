@@ -27,5 +27,4 @@ fields:
   hidden: true
   default: none
 pages:
-- _posts/2019-01-01-TestPost.md
 - _posts/Logos/2019-03-13-Logo1.md
