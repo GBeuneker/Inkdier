@@ -1,7 +1,7 @@
 ---
 label: Post
 hide_body: true
-display_field: images
+display_field: permalink
 fields:
 - name: layout
   label: Layout
