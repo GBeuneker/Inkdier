@@ -7,11 +7,11 @@
     </a>
 
     <ul class="navbar">
-      {% for item in site.menus.header %}
-        <li class="menu-item-{{ loop.index }}">
-          <a href="{{ item.url }}" title="Go to {{ item.title }}">{{ item.title }}</a>
-        </li>
-      {% endfor %}
+      <li><a href="{{site.url}}">Home</a></li>
+      <li><a href="{{site.url}}/webcomic">Webcomic</a></li>
+      <!-- <li><a href="{{site.baseurl}}/archive">Archive</a></li> -->
+      <li><a href="{{site.baseurl}}/shop">Shop</a></li>
+      <li><a href="{{site.baseurl}}/portfolio">Portfolio</a></li>
     </ul>
 
   </div>
