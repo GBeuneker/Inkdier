@@ -1,23 +1,18 @@
 ---
 label: Category
 hide_body: true
-display_field: category
 fields:
-- type: text
-  name: category
-  label: Category
-  description: The name of this category
 - name: layout
   label: Layout
   type: text
   hidden: true
   default: category
 pages:
+- categories/Custom Comics.html
 - categories/Illustrations.html
 - categories/Webcomics.html
 - categories/Watercolor Illustrations.html
 - categories/Logos.html
 - categories/Custom Portraits.html
-- categories/Custom Comics.html
 - categories/Custom Cards.html
 - categories/Cards.html
