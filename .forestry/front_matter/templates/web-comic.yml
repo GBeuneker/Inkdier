@@ -1,6 +1,6 @@
 ---
 label: Web comic
-hide_body: false
+hide_body: true
 fields:
 - type: file
   name: imageurl
