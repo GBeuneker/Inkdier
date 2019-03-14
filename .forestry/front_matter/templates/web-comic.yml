@@ -1,0 +1,37 @@
+---
+label: Web comic
+hide_body: false
+fields:
+- type: file
+  name: imageurl
+  label: imageurl
+  description: The image of this post
+- type: text
+  name: title
+  label: title
+  description: The title of this comic
+  config:
+    required: true
+- type: text
+  name: series
+  label: series
+  config:
+    required: true
+  description: The name of the series this belongs to
+- type: text
+  name: layout
+  label: layout
+  hidden: true
+  config:
+    required: true
+  default: webcomicpost
+- type: select
+  name: category
+  config:
+    source:
+      type: pages
+      section: categories
+    required: true
+  label: category
+  hidden: true
+  default: categories/Webcomics.html
