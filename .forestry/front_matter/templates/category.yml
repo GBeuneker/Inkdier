@@ -8,6 +8,7 @@ fields:
   hidden: true
   default: category
 pages:
+- categories/test.html
 - categories/Custom Comics.html
 - categories/Illustrations.html
 - categories/Webcomics.html
