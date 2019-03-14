@@ -19,18 +19,17 @@
     a {
         transition: color ease-in-out 0.1s;
         text-decoration: none;
-        color: grey;
-        font-size: 30pt;
+        color: black;
     }
-
+    
     img {
         transition: opacity ease-in-out 0.1s;
         // opacity: 0.8;
     }
-
+    
     a:hover {
         transition: color ease-in-out 0.1s;
-        color: black;
+        color: grey;
     
         img {
             transition: opacity ease-in-out 0.1s;

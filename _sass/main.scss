@@ -4,7 +4,7 @@ html, body {
     height: 100%;
     min-width: 250pt;
 
-    background-image: url("/assets/images/background.jpg");
+    // background-image: url("/assets/images/background.jpg");
     background-repeat: repeat-y;
     background-size: 100% auto;
     color: #000;
@@ -34,7 +34,6 @@ html, body {
     height: 100%;
     margin: 10pt auto;
 
-    font-size: 15pt;
     z-index: 10;
     position: relative;
 }
@@ -60,8 +59,6 @@ html, body {
 
 .comic-title {
     h1 {
-        font-size: 50pt;
-        font-weight: bold;
         margin-bottom: 0;
     }
 
@@ -72,7 +69,6 @@ html, body {
 
 .comic-navbar {
     margin: 10pt 0;
-    font-size: 12pt;
 
     li {
         margin: 0;

@@ -1,7 +1,6 @@
 .banner {
     a{
         text-decoration: none;
-        font-weight: bold;
     }
 
     a:hover {
@@ -11,6 +10,8 @@
     img {
         height: 150pt;
         margin: 10pt;
+        border-radius:95% 4% 92% 5%/4% 95% 6% 95%;
+        border: solid 2pt #000;
     }
 }
 
@@ -19,7 +20,6 @@
     margin: 4pt;
     padding: 0;
     min-height: 0;
-    font-size: 18pt;
 
     li {
         display: inline;
@@ -32,16 +32,10 @@
         line-height: 18pt; // = height - border-width
         
         text-decoration: none;
-        font-weight: bold;
         color: inherit;
     }
 
     a:hover {
         color: gray;    
     }
-}
-
-.title {
-    font-size: 40pt;
-    font-weight: bolder;
 }

@@ -1,15 +1,42 @@
 html, body {
-    font-family: quirky nots;
+    font-family: Noto Sans KR;
+    font-size: 12pt;
+    font-weight: 200;
 }
 
-h1,h2,h3,h4,h5,h6 {
-    font-family: quirky nots;
+h1 {
+    font-size: 40pt;
+}
+
+h2 {
+    font-size: 30pt;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 100;
 }
 
 .navbar {
-    font-family: quirky nots;
+    font-size: 20pt;
+    font-weight: 100;
 }
 
-.text-field {
-    font-family: quirky nots;
+.title {
+    font-family: Norse;
+    font-size: 50pt;
+    font-weight: normal;
+}
+
+.comic-navbar {
+    font-size: 10pt;
+}
+
+.image-preview {
+    h3 {
+        font-size: 15pt;
+    }
+}
+
+footer {
+    font-size: 12pt;
 }

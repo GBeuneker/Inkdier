@@ -1,20 +1,12 @@
-@import url('https://fonts.googleapis.com/css?family=Caveat|Dosis|Gamja+Flower|Gloria+Hallelujah|Indie+Flower|Kalam|Patrick+Hand|Poppins|Titillium+Web');
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+KR:100,300,400,500,700,900');
 
 // Import external/online fonts
 @font-face {
-    font-family: 'Poppins', sans-serif;
-    font-family: 'Titillium Web', sans-serif;
-    font-family: 'Gamja Flower', cursive;
-    font-family: 'Dosis', sans-serif;
-    font-family: 'Indie Flower', cursive;
-    font-family: 'Gloria Hallelujah', cursive;
-    font-family: 'Patrick Hand', cursive;
-    font-family: 'Caveat', cursive;
-    font-family: 'Kalam', cursive;
+    font-family: 'Noto Sans KR', sans-serif;
 }
 
 // Import local fonts
 @font-face {
-    src: url("assets/fonts/Quirky Nots.otf");
-    font-family: 'Quirky Nots';
+    src: url("assets/fonts/Norse.otf");
+    font-family: 'Norse';
 }
