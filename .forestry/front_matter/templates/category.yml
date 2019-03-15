@@ -8,7 +8,7 @@ fields:
   hidden: true
   default: category
 pages:
-- categories/Custom comics.html
+- categories/Custom Comics.html
 - categories/Watercolor & Ink Illustrations.html
 - categories/Illustrations.html
 - categories/Webcomics.html
