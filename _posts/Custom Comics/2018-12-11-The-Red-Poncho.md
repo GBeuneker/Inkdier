@@ -1,7 +1,7 @@
 ---
 permalink: none
 layout: post
-category: categories/Custom Comics.html
+category: categories/Custom comics.html
 imageurl: "/assets/images/customcomic2.jpg"
 title: Customcomic2
 
