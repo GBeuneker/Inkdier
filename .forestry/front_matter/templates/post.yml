@@ -11,14 +11,12 @@ fields:
   name: title
   label: Title
   description: Post Title
-- type: select
+- type: text
   name: category
-  config:
-    source:
-      type: pages
-      section: categories
   label: Category
-  description: The category of this post
+  description: The name of the category of this post
+  config:
+    required: true
 - name: layout
   label: Layout
   type: text
@@ -29,6 +27,7 @@ fields:
   type: text
   hidden: true
   default: none
+- type: text
 pages:
 - _posts/Watercolor Illustrations/2019-03-11-Watercolor-4.md
 - _posts/Watercolor Illustrations/2019-03-11-Watercolor-3.md
