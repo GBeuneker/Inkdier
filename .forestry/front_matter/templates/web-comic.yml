@@ -34,7 +34,7 @@ fields:
     required: true
   label: category
   hidden: true
-  default: categories/Webcomics.html
+  default:  Webcomics.html
 pages:
 - _posts/George-and-Fendelwae/2018-12-02-bat-yoga.md
 - _posts/George-and-Fendelwae/2018-12-16-a-bat's-perspective.md

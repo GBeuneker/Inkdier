@@ -1,7 +1,7 @@
 ---
 permalink: none
 layout: post
-category: categories/Watercolor Illustrations.html
+category:  Watercolor Illustrations
 imageurl: "/assets/images/watercolor2.jpg"
 title: Watercolor2
 
