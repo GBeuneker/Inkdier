@@ -3,6 +3,6 @@ permalink: none
 layout: post
 category:  Custom Comics
 imageurl: "/assets/images/customcomic7.jpg"
-title: Customcomic1
+title: Customcomic7
 
 ---
