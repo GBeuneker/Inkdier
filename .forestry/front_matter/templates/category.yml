@@ -8,10 +8,10 @@ fields:
   hidden: true
   default: category
 pages:
--  Custom Comics
--  Watercolor & InkIllustrations
-- Illustrations
--  Webcomics.html
--  WatercolorIllustrations
--  Logos
--  Cards
+- categories/Custom Comics.html
+- categories/Watercolor & Ink Illustrations.html
+- categories/Illustrations.html
+- categories/Webcomics.html
+- categories/Watercolor Illustrations.html
+- categories/Logos.html
+- categories/Cards.html
