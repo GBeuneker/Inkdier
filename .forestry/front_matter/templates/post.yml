@@ -11,6 +11,12 @@ fields:
   name: title
   label: Title
   description: Post Title
+- type: text
+  name: category
+  label: Category
+  description: The category of this post
+  config:
+    required: true
 - name: layout
   label: Layout
   type: text
