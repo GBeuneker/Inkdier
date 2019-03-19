@@ -29,6 +29,7 @@ fields:
   default: none
 - type: text
 pages:
+- _posts/acrylic-painting-2-small.md
 - _posts/Watercolor Illustrations/2019-03-11-Watercolor-4.md
 - _posts/Watercolor Illustrations/2019-03-11-Watercolor-3.md
 - _posts/Watercolor Illustrations/2019-03-11-Watercolor-2.md
