@@ -8,6 +8,7 @@ fields:
   hidden: true
   default: category
 pages:
+- categories/Acrylic Illustrations.html
 - categories/Custom Comics.html
 - categories/Watercolor & Ink Illustrations.html
 - categories/Illustrations.html
