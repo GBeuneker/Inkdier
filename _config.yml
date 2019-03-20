@@ -13,7 +13,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: InkDier - Ink illustrations of mythical-like animals, watercolor illustrations of landscaped, acrylic illustrations, logos, and more
+title: InkDier - I create and sell logos, cards, custom comic strips, and other illustrations. I have a great interest in creating, among other things, mythical-like animals and landscapes. I primarily make use of ink, watercolor paint and acrylic paint. I am currently creating illustrations for a children's book.
 email: contact@inkdier.com
 description: >- # this means to ignore newlines until "baseurl:"
   This is the homepage for Inkdier. Here you can follow my illustration work. You can see my portfolio of ink illustrations, watercolor illustrations, acrylic illustrations, logos, and more. 
