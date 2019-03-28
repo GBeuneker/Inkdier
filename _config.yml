@@ -19,7 +19,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   I create and sell logos, cards, custom comic strips, and other illustrations. I have a great interest in creating, among other things, mythical-like animals and landscapes. I primarily make use of ink, watercolor paint and acrylic paint. I am currently creating illustrations for a children's book.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://www.inkdier.com" # the base hostname & protocol for your site, e.g. http://example.com
-logo: "/favicon.ico"
+logo: "favicon/favicon.ico"
 social:
   name: Judith van der Stouw
   links:
