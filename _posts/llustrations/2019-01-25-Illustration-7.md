@@ -1,7 +1,7 @@
 ---
 permalink: none
 layout: post
-category: Ink Illustrations
+category: Ink Pen
 imageurl: "/assets/images/illustration7.jpg"
 title: Illustration7
 
