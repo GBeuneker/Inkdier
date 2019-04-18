@@ -8,7 +8,7 @@ fields:
   hidden: true
   default: category
 pages:
-- categories/Pencil & Ink.html
+- categories/Pencil & Ink Pen.html
 - categories/Acrylic Paint.html
 - categories/Custom Comics.html
 - categories/Watercolor Paint & Ink.html
