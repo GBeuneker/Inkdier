@@ -1,8 +1,8 @@
 ---
 permalink: none
 layout: post
-category:  Pencil & Ink
-imageurl: "/assets/images/mask portrait 1.jpeg"
+category:  Pencil & Ink Pen
+imageurl: "/assets/images/maskportrait1.jpeg"
 title: mask portrait 1
 
 ---
