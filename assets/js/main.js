@@ -9,15 +9,24 @@ $(function () {
         isMobile = true;
     }
 
-    $('.img-modal').on('click', function() {
-        $('.enlargeImageModalSource').attr('src', $(this).attr('src'));
-        $('#enlargeImageModal').modal('show');
-    });
+    $('.img-modal').on('click', showModal);
 });
 
 window.onload = function() {
     goToComic();
   };
+
+
+function showModal()
+{
+    var title = $(this).parent().find(".tile-title").text();
+    var description = $(this).parent().find(".tile-description").val();
+
+    $('.enlargeImageModalSource').attr('src', $(this).attr('src'));
+    $('#modal-title').text(title);
+    $('#modal-description').text(description);
+    $('#enlargeImageModal').modal('show');
+}
 
 function getRandomPost(postArray) {
     randomIndex = Math.floor(Math.random() * postArray.length);

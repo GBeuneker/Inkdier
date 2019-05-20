@@ -2,6 +2,21 @@
 layout: default
 ---
 
+<div class="modal fade" id="enlargeImageModal" tabindex="-1" role="dialog" aria-labelledby="enlargeImageModal" aria-hidden="true">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">Close</span></button>
+      </div>
+      <div class="modal-body">
+        <img src="" class="enlargeImageModalSource" style="width: 100%;">
+        <h3 class="modal-title" id="modal-title">Test</h3>
+        <p class="modal-description" id="modal-description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni amet eaque ipsa magnam. Repellendus, qui dicta aut reiciendis aliquid, aspernatur ipsa culpa facere in odit debitis dolorum assumenda laboriosam beatae.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
 <div class="comic-tiles text-center container box">
   {% assign category = page.name | remove: ".html" %}
   <h1>{{category}}</h1>
@@ -10,6 +25,8 @@ layout: default
     {% for post in site.categories[category] %}
       <div class="col-md-6 col-sm-6 image-preview">
         <img src="{{site.baseurl}}{{post.imageurl}}" alt="{{post.title}}" class="img-modal"/>
+        <h3 class="tile-title">{{post.title}}</h3>
+        <input type="hidden" class="tile-description" value="{{ post.excerpt | strip_html }}"> 
       </div>
     {% endfor %}
   </div>

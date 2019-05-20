@@ -26,3 +26,20 @@ display: inline-block;
 text-align: left;
 vertical-align: middle;
 }
+
+
+.modal-body 
+{
+    .modal-title 
+    {
+        text-align: center;
+        font-weight: bold;
+    }
+
+    .modal-description 
+    {
+        width: 75%;
+        margin: auto;
+        text-align: center;
+    }
+}
