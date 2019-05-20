@@ -28,6 +28,7 @@ fields:
   hidden: true
   default: none
 pages:
+- _posts/Cards/2019-02-17-Card1.md
 - _posts/Custom Portraits/2018-12-10-Custom-Portrait-2.md
 - _posts/llustrations/2019-01-25-Illustration-9.md
 - _posts/llustrations/2018-12-11-Illustration-2.md
@@ -41,7 +42,6 @@ pages:
 - _posts/Custom Cards/2018-12-10-Custom-Card-1.md
 - _posts/Cards/2019-02-17-Card3.md
 - _posts/Cards/2019-02-17-Card4.md
-- _posts/Cards/2019-02-17-Card1.md
 - _posts/Watercolor Illustrations/2019-03-11-Watercolor-3.md
 - _posts/llustrations/2019-01-18-Illustration-6.md
 - _posts/llustrations/2018-12-13-Illustration-4.md
