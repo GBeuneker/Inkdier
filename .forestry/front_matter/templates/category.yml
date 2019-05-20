@@ -9,10 +9,10 @@ fields:
   default: category
 pages:
 - categories/Pencil & Ink Pen.html
-- categories/Acrylic Paint.html
 - categories/Watercolor Paint & Ink Pen.html
 - categories/Ink Pen.html
+- categories/Cards.html
+- categories/Logos.html
+- categories/Acrylic Paint.html
 - categories/Comics.html
 - categories/Watercolor Paint.html
-- categories/Logos.html
-- categories/Cards.html

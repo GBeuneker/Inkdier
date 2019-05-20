@@ -27,30 +27,29 @@ fields:
   type: text
   hidden: true
   default: none
-- type: text
 pages:
-- _posts/acrylic-painting-2-small.md
-- _posts/Watercolor Illustrations/2019-03-11-Watercolor-4.md
-- _posts/Watercolor Illustrations/2019-03-11-Watercolor-3.md
-- _posts/Watercolor Illustrations/2019-03-11-Watercolor-2.md
-- _posts/Watercolor Illustrations/2019-01-07-Watercolor-1.md
-- _posts/llustrations/2019-01-25-Illustration-9.md
-- _posts/llustrations/2019-01-25-Illustration-8.md
-- _posts/llustrations/2019-01-25-Illustration-7.md
-- _posts/llustrations/2019-01-18-Illustration-6.md
-- _posts/llustrations/2019-01-07-Illustration-5.md
-- _posts/llustrations/2018-12-13-Illustration-4.md
-- _posts/llustrations/2018-12-11-Illustration-2.md
-- _posts/llustrations/2019-03-05-Illustration-13.md
-- _posts/llustrations/2019-03-05-Illustration-12.md
-- _posts/llustrations/2019-02-27-Illustration-11.md
-- _posts/llustrations/2019-02-20-Illustration-10.md
-- _posts/llustrations/2018-12-10-Illustration-1.md
 - _posts/Custom Portraits/2018-12-10-Custom-Portrait-2.md
-- _posts/Custom Portraits/2018-12-10-Custom-Portrait-1.md
+- _posts/llustrations/2019-01-25-Illustration-9.md
+- _posts/llustrations/2018-12-11-Illustration-2.md
+- _posts/llustrations/2019-02-27-Illustration-11.md
+- _posts/llustrations/2019-01-25-Illustration-7.md
+- _posts/llustrations/2019-01-25-Illustration-8.md
+- _posts/llustrations/2019-01-07-Illustration-5.md
+- _posts/llustrations/2019-03-05-Illustration-13.md
+- _posts/llustrations/2019-02-20-Illustration-10.md
+- _posts/Cards/2019-02-17-Card2.md
 - _posts/Custom Cards/2018-12-10-Custom-Card-1.md
 - _posts/Cards/2019-02-17-Card3.md
 - _posts/Cards/2019-02-17-Card4.md
-- _posts/Cards/2019-02-17-Card2.md
 - _posts/Cards/2019-02-17-Card1.md
+- _posts/Watercolor Illustrations/2019-03-11-Watercolor-3.md
+- _posts/llustrations/2019-01-18-Illustration-6.md
+- _posts/llustrations/2018-12-13-Illustration-4.md
+- _posts/llustrations/2019-03-05-Illustration-12.md
+- _posts/Watercolor Illustrations/2019-03-11-Watercolor-2.md
+- _posts/Watercolor Illustrations/2019-03-11-Watercolor-4.md
+- _posts/acrylic-painting-2-small.md
+- _posts/Watercolor Illustrations/2019-01-07-Watercolor-1.md
+- _posts/llustrations/2018-12-10-Illustration-1.md
+- _posts/Custom Portraits/2018-12-10-Custom-Portrait-1.md
 - _posts/Logos/2019-03-13-Logo1.md
