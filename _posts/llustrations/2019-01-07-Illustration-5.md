@@ -6,3 +6,5 @@ imageurl: "/assets/images/illustration5.jpg"
 title: Okapi
 
 ---
+
+They can lick their own ears!
