@@ -1,8 +1,8 @@
 ---
 permalink: none
 layout: post
-category:  Pencil & Ink Pen
+category:  Mask Series
 imageurl: "/assets/images/maskportrait1.jpg"
-title: Mask
+title: Mask No. 1
 
 ---
