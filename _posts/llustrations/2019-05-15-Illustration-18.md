@@ -1,7 +1,7 @@
 ---
 permalink: none
 layout: post
-category: Ink Pen
+category: Fantastically Real Animals Series
 imageurl: "/assets/images/illustration18.jpg"
 title: Firefly Squid
 
