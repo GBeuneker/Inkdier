@@ -1,7 +1,7 @@
 ---
 permalink: none
 layout: post
-category:  Watercolor Paint
+category:  Landscapes
 imageurl: "/assets/images/watercolor2.jpg"
 title: Desert Hills
 
