@@ -28,7 +28,6 @@ fields:
   hidden: true
   default: none
 pages:
-- _posts/Cards/2019-02-17-Card1.md
 - _posts/Custom Portraits/2018-12-10-Custom-Portrait-2.md
 - _posts/llustrations/2019-01-25-Illustration-9.md
 - _posts/llustrations/2018-12-11-Illustration-2.md
