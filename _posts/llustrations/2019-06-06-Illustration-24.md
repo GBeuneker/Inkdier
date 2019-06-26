@@ -7,4 +7,4 @@ title: Greater Kudu
 
 ---
 
-
+The spectacular spiral horns of this antelope are the longest of any antelope!
