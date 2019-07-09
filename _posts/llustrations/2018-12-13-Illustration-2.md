@@ -2,7 +2,7 @@
 permalink: none
 layout: post
 category: Fantastically Real Animals Series
-imageurl: "/assets/images/illustration4.jpg"
+imageurl: "/assets/images/Illustration2.webp"
 title: Chevrotain
 
 ---
