@@ -2,7 +2,7 @@
 permalink: none
 layout: post
 category: Fantastically Real Animals Series
-imageurl: "/assets/images/illustration21.jpg"
+imageurl: "/assets/images/Illustration12.webp"
 title: Platypus
 
 ---
