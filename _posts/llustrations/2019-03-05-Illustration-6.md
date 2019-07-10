@@ -2,7 +2,7 @@
 permalink: none
 layout: post
 category: Fantastically Real Animals Series
-imageurl: "/assets/images/illustration13.jpg"
+imageurl: "/assets/images/Illustration6.webp"
 title: Ring-Tailed Lemur
 
 ---
