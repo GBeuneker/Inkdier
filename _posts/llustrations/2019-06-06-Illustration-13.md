@@ -2,7 +2,7 @@
 permalink: none
 layout: post
 category: Fantastically Real Animals Series
-imageurl: "/assets/images/Illustration13.jpg"
+imageurl: "/assets/images/Illustration13.webp"
 title: Red-Shanked Douc
 
 ---
