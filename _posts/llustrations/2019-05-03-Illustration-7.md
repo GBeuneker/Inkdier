@@ -2,7 +2,7 @@
 permalink: none
 layout: post
 category: Fantastically Real Animals Series
-imageurl: "/assets/images/illustration15.jpg"
+imageurl: "/assets/images/Illustration7.webp"
 title: Tapir
 
 ---
