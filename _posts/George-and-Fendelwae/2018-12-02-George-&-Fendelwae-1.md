@@ -2,7 +2,7 @@
 layout: webcomicpost
 series: George & Fendelwae
 category:  Comics
-imageurl: "/comics/comic1.jpg"
+imageurl: "/comics/George & Fendelwae 1.webp"
 title: Bat Yoga
 
 ---
