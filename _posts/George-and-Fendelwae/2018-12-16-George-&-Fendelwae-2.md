@@ -2,7 +2,7 @@
 layout: webcomicpost
 series: George & Fendelwae
 category:  Comics
-imageurl: "/comics/comic2.jpg"
+imageurl: "/comics/George & Fendelwae 2.webp"
 title: A Bat's Perspective
 
 ---
