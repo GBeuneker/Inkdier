@@ -102,3 +102,13 @@ html, body {
     }
 }
 
+hr.inkline {
+    margin: 0;
+    border: none;
+    height: 30px;
+}
+
+hr.inkline::before {
+    content: url("assets/images/inkline1.png");
+}
+
