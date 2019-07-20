@@ -103,12 +103,17 @@ html, body {
 }
 
 hr.inkline {
+    height: 15px;
+    background-image: url("assets/images/inkline1.webp");
+    background-size: 50% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
     margin: 0;
-    border: none;
-    height: 30px;
+    border: 0;
 }
 
-hr.inkline::before {
-    content: url("assets/images/inkline1.png");
+@media screen and (max-width: 768px){
+    hr.inkline {
+        background-size: 100% 100%;
+    }
 }
-
