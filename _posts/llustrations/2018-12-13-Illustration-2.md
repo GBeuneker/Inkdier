@@ -7,4 +7,4 @@ title: Chevrotain
 
 ---
 
-They are also known as 'mousedeer'; they are very small!
+They are also known as 'mousedeer', and are the smallest hoofed mammals in the world!
