@@ -7,4 +7,4 @@ title: Pangolin
 
 ---
 
-They roll up, creating a hard, spiky, impenetrable ball that can defeat even the jaws of lion and tigers!
+It can roll up, creating a hard, spiky, impenetrable ball that can defeat even the jaws of lions and tigers!
