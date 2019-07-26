@@ -2,7 +2,7 @@
 permalink: none
 layout: post
 category: Fantastically Real Animals Series
-imageurl: "/assets/images/Illustration10.webp"
+imageurl: "/assets/images/Illustration10.jpg"
 title: Blue Dragon
 
 ---

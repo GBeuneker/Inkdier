@@ -2,7 +2,7 @@
 permalink: none
 layout: post
 category: Fantastically Real Animals Series
-imageurl: "/assets/images/Illustration14.webp"
+imageurl: "/assets/images/Illustration14.jpg"
 title: Fennec Fox
 
 ---
