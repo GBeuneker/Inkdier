@@ -2,7 +2,7 @@
 permalink: none
 layout: post
 category: Fantastically Real Animals Series
-imageurl: "/assets/images/Illustration15.jpeg"
+imageurl: "/assets/images/Illustration15.jpg"
 title: Pangolin
 
 ---
