@@ -3,7 +3,7 @@ permalink: none
 layout: post
 category: Fantastically Real Animals Series
 imageurl: "/assets/images/Illustration18.jpg"
-title: Dwarfed Epauletted Fruit Bat
+title: Dwarf Epauletted Fruit Bat
 
 ---
 
