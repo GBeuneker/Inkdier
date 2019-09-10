@@ -28,9 +28,12 @@ fields:
   hidden: true
   default: none
 pages:
+- _posts/acrylic-painting-2-small.md
 - _posts/Custom Portraits/2018-12-10-Custom-Portrait-2.md
-- _posts/llustrations/2019-01-25-Illustration-9.md
+- _posts/Custom Portraits/2018-12-10-Custom-Portrait-1.md
 - _posts/llustrations/2018-12-11-Illustration-2.md
+- _posts/llustrations/2018-12-10-Illustration-1.md
+- _posts/llustrations/2019-01-25-Illustration-9.md
 - _posts/llustrations/2019-02-27-Illustration-11.md
 - _posts/llustrations/2019-01-25-Illustration-7.md
 - _posts/llustrations/2019-01-25-Illustration-8.md
@@ -44,7 +47,4 @@ pages:
 - _posts/llustrations/2019-03-05-Illustration-12.md
 - _posts/Watercolor Illustrations/2019-03-11-Watercolor-2.md
 - _posts/Watercolor Illustrations/2019-03-11-Watercolor-4.md
-- _posts/acrylic-painting-2-small.md
 - _posts/Watercolor Illustrations/2019-01-07-Watercolor-1.md
-- _posts/llustrations/2018-12-10-Illustration-1.md
-- _posts/Custom Portraits/2018-12-10-Custom-Portrait-1.md

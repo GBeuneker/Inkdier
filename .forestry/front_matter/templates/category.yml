@@ -8,6 +8,7 @@ fields:
   hidden: true
   default: category
 pages:
+- categories/Column.html
 - categories/Children In Nature Series.html
 - categories/Authentic Masks Series.html
 - categories/Fantastically Real Animals Series.html
