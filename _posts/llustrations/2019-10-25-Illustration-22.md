@@ -2,7 +2,7 @@
 permalink: none
 layout: post
 category: Fantastically Real Animals Series
-imageurl: "/assets/images/Illustration23.jpg"
+imageurl: "/assets/images/Illustration22.jpg"
 title: Axolotl
 
 ---
