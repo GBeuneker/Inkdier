@@ -8,10 +8,9 @@ fields:
   hidden: true
   default: category
 pages:
-- categories/Column.html
-- categories/Children In Nature Series.html
-- categories/Authentic Masks Series.html
-- categories/Fantastically Real Animals Series.html
-- categories/Concept Art Children's Book.html
 - categories/Comics.html
-- categories/Landscapes.html
+- categories/Children In Nature Series.html
+- categories/Column.html
+- categories/Concept Art Children's Book.html
+- categories/Fantastically Real Animals Series.html
+- categories/Authentic Masks Series.html
