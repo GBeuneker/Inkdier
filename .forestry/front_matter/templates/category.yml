@@ -8,7 +8,6 @@ fields:
   hidden: true
   default: category
 pages:
-- categories/Comics.html
 - categories/Column.html
 - categories/Concept Art Children's Book.html
 - categories/Fantastically Real Animals Series.html
