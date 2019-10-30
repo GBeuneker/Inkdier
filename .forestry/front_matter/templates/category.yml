@@ -9,7 +9,6 @@ fields:
   default: category
 pages:
 - categories/Comics.html
-- categories/Children In Nature Series.html
 - categories/Column.html
 - categories/Concept Art Children's Book.html
 - categories/Fantastically Real Animals Series.html
