@@ -1,0 +1,9 @@
+---
+permalink: none
+layout: post
+imageurl: "/assets/images/Illustration14.jpg"
+title: Fennec Fox
+
+---
+
+They are the world's smallest fox species; they are as small as kittens, but their ears are very big, which they use to hear to detect prey that are moving underground!
