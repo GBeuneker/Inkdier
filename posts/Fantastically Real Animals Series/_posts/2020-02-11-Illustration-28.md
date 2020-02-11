@@ -2,7 +2,7 @@
 permalink: none
 layout: post
 imageurl: "/assets/images/Illustration28.jpg"
-title: Tufted Coqeutte
+title: Tufted Coquette
 
 ---
 
