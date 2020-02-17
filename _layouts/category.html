@@ -19,7 +19,7 @@ layout: default
 
 <div class="comic-tiles text-center container box">
   {% assign category = page.name | remove: ".html" %}
-  <h1>{{category}}</h1>
+  <h2>{{category}}</h2>
 
   <div class="row">
     {% for post in site.categories[category] %}
