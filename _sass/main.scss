@@ -10,12 +10,12 @@ html, body {
     color: #000;
 }
 
-a {
+a, a:visited {
     transition: color ease-in-out 0.1s;
     color: initial;
 }
 
-a:hover, a:visited {
+a:hover {
     color: #9c7b52;
 }
 
