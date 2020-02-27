@@ -11,12 +11,13 @@ html, body {
 }
 
 a, a:visited {
-    transition: color ease-in-out 0.1s;
+    transition: all ease-in-out 0.1s;
     color: initial;
 }
 
 a:hover {
     color: #9c7b52;
+    text-decoration: none;
 }
 
 .box {
