@@ -1,14 +1,4 @@
 .banner {
-    a{
-        transition: color ease-in-out 0.1s;
-        text-decoration: none;
-        color: initial;
-    }
-
-    a:hover {
-        color: #9c7b52;
-    }
-
     img {
         height: 150pt;
         margin: 10pt;
@@ -29,16 +19,8 @@
     }
 
     a {
-        transition: color ease-in-out 0.1s;
         display: inline-block;
         height: 20pt;
         line-height: 18pt; // = height - border-width
-        
-        text-decoration: none;
-        color: inherit;
-    }
-
-    a:hover {
-        color: #9c7b52;    
     }
 }
