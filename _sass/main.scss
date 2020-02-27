@@ -10,6 +10,15 @@ html, body {
     color: #000;
 }
 
+a {
+    transition: color ease-in-out 0.1s;
+    color: initial;
+}
+
+a:hover, a:visited {
+    color: #9c7b52;
+}
+
 .box {
     background-color: #fff;
 
