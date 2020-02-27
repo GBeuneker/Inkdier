@@ -14,26 +14,10 @@
     }
 }
 
-.image-link {
-    a {
-        transition: color ease-in-out 0.1s;
-        text-decoration: none;
-        color: black;
-    }
-    
+.image-link { 
     img {
         height: 100%;
         transition: opacity ease-in-out 0.1s;
         opacity: 1.0;
-    }
-    
-    a:hover {
-        transition: color ease-in-out 0.1s;
-        color: #9c7b52;
-    
-        img {
-            transition: opacity ease-in-out 0.1s;
-            // opacity: 0.8;
-        }
     }
 }
