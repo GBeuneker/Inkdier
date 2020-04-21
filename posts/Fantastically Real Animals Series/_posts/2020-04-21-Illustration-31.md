@@ -6,4 +6,4 @@ title: Betta Fish
 
 ---
 
-Male bettas build bubble nests to protect his eggs and newly hatched bettas!
+Male betta fish build bubble nests to protect his eggs and newly hatched bettas!
