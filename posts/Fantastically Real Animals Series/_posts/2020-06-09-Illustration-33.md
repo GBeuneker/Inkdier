@@ -2,7 +2,7 @@
 permalink: none
 layout: post
 imageurl: "/assets/images/Illustration33.jpg"
-title: Wallace's Flyng Frog
+title: Wallace's Flying Frog
 
 ---
 
