@@ -14,11 +14,11 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: InkDier - ink illustrations of fantastically real animals and more
-email: contact@inkdier.com
+email: contact@inkdier.nl
 description: >- # this means to ignore newlines until "baseurl:"
   My inspiration comes from the stranger inhabitants of the animal kingdom! I bring these animals to light by immortalizing them in ink. 
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://www.inkdier.com" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://www.inkdier.nl" # the base hostname & protocol for your site, e.g. http://example.com
 logo: "favicon.ico"
 social:
   name: Judith van der Stouw
